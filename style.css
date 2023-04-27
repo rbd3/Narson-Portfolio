@@ -12,7 +12,6 @@ body {
 header {
   background-color: #fff;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   width: 100%;
@@ -44,10 +43,7 @@ header {
 }
 
 .app-header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  flex-direction: row;
   background-image: url("media/header-image.png");
   background-color: rebeccapurple;
   width: 100%;
