@@ -134,3 +134,278 @@ header {
   color: #505f79;
   opacity: 0.5;
 }
+
+/* Work Section */
+.work {
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 33.333%;
+  margin-top: 5%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  width: 327px;
+  height: 552px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 6px;
+}
+
+.sary {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: -2rem;
+}
+
+.card-tittle {
+  width: 295px;
+  height: 36px;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#fb-title {
+  margin-left: 2rem;
+}
+
+#fb-info {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.frame2-img {
+  width: 236px;
+  height: 32px;
+  padding: 0.5rem;
+  margin-top: -0.9px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: -0.2px;
+}
+
+.frame3-img {
+  display: flex;
+  align-items: center;
+}
+
+.project-info {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  order: 2;
+}
+
+ul.project-info li {
+  list-style-type: none;
+  position: relative; /* make the li element a positioned ancestor */
+  padding-right: 20px;
+  white-space: nowrap;
+}
+
+ul.project-info li:not(:first-child)::before {
+  content: "\2022";
+  font-size: 40px;
+  position: absolute;
+  left: -1.5rem;
+  top: 0;
+}
+
+.fb {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #3b5998;
+}
+
+.full {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b778c;
+}
+
+.year {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b778c;
+}
+
+.description {
+  width: 295px;
+  height: 50px;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  flex: none;
+  flex-grow: 0;
+  color: #344563;
+}
+
+ul.languages-list li {
+  white-space: nowrap;
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 203px;
+  height: 20px;
+  list-style: none;
+  order: 2;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  margin-left: -0.01rem;
+  margin-right: 0;
+}
+
+#back-list {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+#fd-buttons {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+#description-fb {
+  margin-left: 2rem;
+}
+
+.html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.css {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 45px;
+  height: 24px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.javascript {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 89px;
+  height: 24px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.buttons {
+  box-sizing: border-box;
+  border: 1px solid #6070ff;
+  background-color: #fff;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 500;
+  color: #396df2;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 8px;
+  height: 48px;
+  width: 127.04px;
+  bottom: 10px;
+  margin-left: 0.2rem;
+  margin-top: 2rem;
+  padding: 0;
+  gap: 10px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+}
+
+.buttons:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.buttons:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
