@@ -163,7 +163,7 @@ header {
 }
 
 .sary {
-  width: 295px;
+  width: calc(100% + 32px);
   height: 220px;
   border-radius: 8px;
   flex: none;
@@ -592,6 +592,8 @@ ul.languages-list li {
   align-items: center;
   margin-top: 8px;
   margin-left: 10px;
+  width: 48px;
+  height: 48px;
 }
 
 .js-text {
@@ -626,6 +628,8 @@ ul.languages-list li {
   align-items: center;
   margin-top: 8px;
   margin-left: 10px;
+  width: 48px;
+  height: 48px;
 }
 
 .html-text {
@@ -660,6 +664,8 @@ ul.languages-list li {
   align-items: center;
   margin-top: 8px;
   margin-left: 10px;
+  width: 48px;
+  height: 48px;
 }
 
 .css-text {
