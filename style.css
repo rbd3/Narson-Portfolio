@@ -579,7 +579,7 @@ ul.languages-list li {
 .javascript2 {
   flex: none;
   flex-grow: 0;
-  width: 330px;
+  width: 303px;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -612,7 +612,7 @@ ul.languages-list li {
 }
 
 .html2 {
-  width: 330px;
+  width: 303px;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -648,7 +648,7 @@ ul.languages-list li {
 }
 
 .css2 {
-  width: 330px;
+  width: 303px;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
