@@ -191,7 +191,7 @@ header {
 
 #fb-info {
   margin-left: 2rem;
-  margin-top: 1rem;
+  margin-top: 0.1rem;
 }
 
 .frame2-img {
@@ -217,7 +217,7 @@ header {
   margin: 0;
   width: 100%;
   font-size: 16px;
-  margin-top: 1.5rem;
+  margin-top: 0.1rem;
   margin-bottom: 1rem;
   font-weight: bold;
   flex-direction: row;
@@ -561,7 +561,7 @@ ul.languages-list li {
   align-items: center;
   padding: 12px;
   gap: 12px;
-  width: 13%;
+  width: 327px;
   height: 248.15px;
 }
 
