@@ -571,9 +571,9 @@ ul.languages-list li {
   display: flex;
   flex-direction: column;
   margin-top: -10px;
-  margin-left: -40px;
   list-style-type: none;
   gap: 7px;
+  margin-left: -5.5rem;
 }
 
 .javascript2 {
@@ -627,9 +627,9 @@ ul.languages-list li {
   flex-direction: row;
   align-items: center;
   margin-top: 8px;
-  margin-left: 10px;
   width: 48px;
   height: 48px;
+  margin-left: 10px;
 }
 
 .html-text {
@@ -703,6 +703,7 @@ ul.languages-list li {
   font-size: 20px;
   line-height: 24px;
   color: #000;
+  margin-left: -12px;
 }
 
 .right-arrow {
@@ -715,6 +716,14 @@ ul.languages-list li {
   margin-top: 3px;
   margin-left: 275px;
   color: #5e6c84;
+}
+
+.separator-bottom {
+  margin-left: -4%;
+}
+
+.separarot-bottom4 {
+  margin-left: -4%;
 }
 
 .skills {
@@ -737,4 +746,5 @@ ul.languages-list li {
   font-size: 20px;
   line-height: 24px;
   color: #000;
+  margin-left: -12px;
 }
