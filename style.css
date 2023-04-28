@@ -140,7 +140,8 @@ header {
   background-color: #e5e5e5;
   display: grid;
   grid-template-columns: 33.333%;
-  margin-top: 5%;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 .card-container {
@@ -158,6 +159,7 @@ header {
   order: 0;
   flex-grow: 0;
   margin: 6px;
+  margin-bottom: 60%;
 }
 
 .sary {
@@ -421,7 +423,7 @@ ul.languages-list li {
   background: #fff;
   gap: 12px;
   margin: 96px 6px 6px 6px;
-  margin-top: 5%;
+  margin-top: -18%;
 }
 
 .about-text {
