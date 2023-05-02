@@ -748,3 +748,130 @@ ul.languages-list li {
   color: #000;
   margin-left: -12px;
 }
+
+/* contact me */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 48rem;
+  width: 375px;
+  border-top-left-radius: 60px;
+  background-image: url("media/header-shapes\ mobile@2x.svg");
+  background-size: cover;
+  background-color: #6070ff;
+  margin-top: 20%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-me {
+  height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding-top: 109px;
+}
+
+.contact-text {
+  width: 327px;
+  left: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-top: -20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -39px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#name {
+  display: flex;
+  height: 40px;
+  width: 305px;
+  padding-left: 20px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: #172b4d;
+}
+
+#email {
+  display: flex;
+  height: 40px;
+  width: 305px;
+  padding-left: 20px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: #172b4d;
+}
+
+#text {
+  display: flex;
+  height: 160px;
+  width: 305px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #172d4d;
+}
+
+#contact-submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 12px 16px 12px 16px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  margin-top: -20px;
+}
+
+#contact-submit:hover {
+  background-color: #6070ff;
+  font-size: 18px;
+  color: #fff;
+}
+
+#contact-submit:active {
+  background-color: #2230d2;
+  font-size: 18px;
+  color: #fff;
+}
