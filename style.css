@@ -32,13 +32,18 @@ header {
   height: 20px;
   text-decoration: none;
   align-items: center;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.ambony {
+  margin-right: 15%;
+  margin-top: 2%;
 }
 
 .humbourger {
   height: 12px;
   width: 18px;
-  left: 3px;
-  top: 6px;
   color: rgba(96, 112, 255, 1);
 }
 
@@ -46,6 +51,7 @@ header {
   align-items: center;
   background-image: url("media/header-image.png");
   background-color: rebeccapurple;
+  background-size: cover;
   width: 100%;
   height: 48px;
 }
@@ -891,8 +897,8 @@ ul {
     font-weight: 700;
     line-height: 20px;
     background-color: transparent;
-    transition: width 2s, height 2s, background-color 2s, rotate 2s;
-    rotate: 360deg;
+    margin-left: 10%;
+    margin-top: 2%;
   }
 
   .app-header {
@@ -905,13 +911,13 @@ ul {
 
   .ambony {
     width: auto;
+    margin-right: 5%;
   }
 
   .menu {
     display: flex !important;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 20px;
   }
 
   .menu-item {
@@ -977,7 +983,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1156px;
+    width: 85%;
     margin: 10% 0 0 5%;
     margin-top: 5%;
     border-radius: 24px;
@@ -989,12 +995,12 @@ ul {
     float: left;
     flex-direction: row;
     padding: 24px;
-    gap: 46px;
     border: 1px solid #dfe1e6;
-    margin-top: 100px;
+    margin-top: 10%;
     height: 60vh;
     width: 100%;
     border-radius: 24px;
+    margin-bottom: 5%;
   }
 
   .card-container img {
@@ -1012,9 +1018,9 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     padding-left: 2%;
-    margin-left: 10%;
+    margin-left: 6%;
     width: 50%;
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 
   .card-tittle {
@@ -1036,16 +1042,15 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    margin: 0;
     width: 60%;
     font-size: 16px;
-    margin-left: -8.5rem;
     margin-top: -3rem;
     margin-bottom: 1rem;
     font-weight: bold;
     flex-direction: row;
     gap: 8px;
     order: 2;
+    margin-left: -5rem;
   }
 
   ul.project-info li {
@@ -1096,7 +1101,7 @@ ul {
     margin: 0;
     width: 60%;
     font-size: 16px;
-    margin-left: -8.5rem;
+    margin-left: -4.5rem;
     margin-top: -3rem;
     margin-bottom: 1rem;
     font-weight: bold;
