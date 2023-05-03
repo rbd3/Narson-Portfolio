@@ -1123,7 +1123,7 @@ ul {
 
   .description {
     display: flex;
-    margin-top: -2rem;
+    margin-top: -3rem;
     width: 100%;
     margin-left: -5.3rem;
   }
@@ -1134,12 +1134,12 @@ ul {
 
   .languages-list {
     margin-left: -5.3rem;
-    margin-top: -8.5rem;
+    margin-top: -9.5rem;
   }
 
   .buttons {
     margin-left: -5.4rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     background: #4053fc;
     color: #fff;
   }
