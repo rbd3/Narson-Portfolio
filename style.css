@@ -990,9 +990,7 @@ ul {
 
   .card-container {
     display: flex;
-    float: left;
     flex-direction: row;
-    padding: 24px;
     border: 1px solid #dfe1e6;
     margin-top: 5%;
     height: 60vh;
@@ -1016,7 +1014,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     padding-left: 2%;
-    margin-left: 6%;
+    margin-left: 8rem;
     width: 50%;
     margin-top: 10rem;
   }
@@ -1048,7 +1046,7 @@ ul {
     flex-direction: row;
     gap: 8px;
     order: 2;
-    margin-left: -5rem;
+    margin-left: -4rem;
   }
 
   ul.project-info li {
@@ -1099,7 +1097,7 @@ ul {
     margin: 0;
     width: 60%;
     font-size: 16px;
-    margin-left: -4.5rem;
+    margin-left: -3.5rem;
     margin-top: -3rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -1110,24 +1108,23 @@ ul {
 
   #back-list {
     margin-left: -5.3rem;
-    margin-top: -10.5rem;
+    margin-top: -9.5rem;
   }
 
   #fd-buttons {
     margin-left: -5.4rem;
-    margin-top: 5rem;
   }
 
   #description-fb {
     margin-top: -2rem;
-    width: 66%;
+    width: 100%;
     margin-left: -5.3rem;
   }
 
   .description {
     display: flex;
     margin-top: -2rem;
-    width: 66%;
+    width: 100%;
     margin-left: -5.3rem;
   }
 
@@ -1183,7 +1180,7 @@ ul {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    width: 27.2rem;
+    width: 28rem;
     height: 102px;
   }
 
@@ -1193,7 +1190,7 @@ ul {
   }
 
   .social2 {
-    margin-left: 7%;
+    margin-left: 0.5rem;
   }
 
   .buttons2 {
@@ -1314,11 +1311,6 @@ ul {
     margin-top: -1px;
   }
 
-  .separator-bottom4 {
-    margin-left: -19rem;
-    margin-top: -1px;
-  }
-
   .skills-text {
     display: flex;
     flex-direction: row;
@@ -1327,9 +1319,9 @@ ul {
     margin-top: 9.7rem;
   }
 
-  .separarot-bottom2 {
-    margin-left: -35.5rem;
-    margin-top: -1rem;
+  .separator-bottom4 {
+    margin-left: -45rem;
+    margin-top: -1px;
   }
 
   /* contact section */
