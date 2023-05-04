@@ -1216,13 +1216,13 @@ ul {
   }
 
   .languages {
-    margin-left: -23rem;
+    margin-left: -18rem;
   }
 
   .languages-list2 {
     display: flex;
     flex-direction: row;
-    margin-left: -3rem;
+    margin-left: 0.5rem;
     padding-bottom: 3rem;
     margin-top: -5rem;
   }
@@ -1291,7 +1291,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: -1rem;
+    margin-left: 8rem;
     margin-top: 5rem;
   }
 
@@ -1315,7 +1315,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: -6rem;
+    margin-left: 3rem;
     margin-top: 9.7rem;
   }
 
