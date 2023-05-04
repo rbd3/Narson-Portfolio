@@ -1162,6 +1162,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 2rem;
+    margin-top: -10%;
   }
 
   .about-text {
@@ -1169,7 +1170,6 @@ ul {
     white-space: nowrap;
     margin-left: 10%;
     width: 100%;
-    margin-top: -40%;
   }
 
   .summary {
@@ -1180,21 +1180,25 @@ ul {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    width: 28rem;
-    height: 102px;
+    width: 35vw;
+    height: 30vh;
+
   }
 
   .connection2 {
     margin-left: 10%;
-    margin-top: 0.5rem;
+    margin-top: -20%;
   }
 
   .social2 {
     margin-left: 0.5rem;
+    margin-top: 2%;
+    width: 45%;
   }
 
   .buttons2 {
     margin-left: 10%;
+    margin-top: 2%;
   }
 
   .skill-list {
