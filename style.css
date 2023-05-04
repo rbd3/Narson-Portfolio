@@ -1231,7 +1231,7 @@ ul {
     margin-top: -5rem;
   }
 
-  .languages-list2 li {
+  ul.languages-list2 li {
     margin-right: -2rem;
   }
 
