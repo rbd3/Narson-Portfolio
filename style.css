@@ -1182,7 +1182,6 @@ ul {
     text-align: left;
     width: 35vw;
     height: 30vh;
-
   }
 
   .connection2 {
@@ -1327,7 +1326,7 @@ ul {
   .separator-bottom4 {
     display: flex;
     margin-left: -18.5rem;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   /* contact section */
