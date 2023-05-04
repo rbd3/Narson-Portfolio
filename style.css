@@ -1204,7 +1204,7 @@ ul {
   .skill-list {
     display: flex;
     flex-direction: column;
-    margin-top: -16rem;
+    margin-top: -10%;
     width: 50%;
     margin-left: 2rem;
   }
@@ -1226,7 +1226,7 @@ ul {
   .languages-list2 {
     display: flex;
     flex-direction: row;
-    margin-left: 0.5rem;
+    margin-left: -1rem;
     padding-bottom: 3rem;
     margin-top: -5rem;
   }
@@ -1301,7 +1301,7 @@ ul {
 
   .right-arrow {
     display: flex;
-    margin-left: 19rem;
+    margin-left: 17rem;
     margin-top: 6.4rem;
   }
 
@@ -1311,8 +1311,8 @@ ul {
   }
 
   .separator-bottom {
-    margin-left: -19rem;
-    margin-top: -1px;
+    margin-left: -20rem;
+    margin-top: 5%;
   }
 
   .skills-text {
@@ -1323,9 +1323,9 @@ ul {
     margin-top: 9.7rem;
   }
 
-  .separator-bottom4 {
+  .separator-bottom1 {
     margin-left: -45rem;
-    margin-top: -1px;
+    margin-top: 5%;
   }
 
   /* contact section */
