@@ -902,10 +902,11 @@ ul {
 
   .app-header {
     display: flex;
+    position: fixed;
   }
 
-  .humbourger {
-    display: none;
+  .humburger {
+    display: none !important;
   }
 
   .ambony {
@@ -1110,11 +1111,11 @@ ul {
   #fd-buttons {
     margin-left: -5.4rem;
     background-color: #396df2;
-    color: #dfe1e6;
+    color: #fff;
   }
 
   #fd-buttons:hover {
-    background-color: #dfe1e6;
+    background-color: #fff;
     color: #396df2;
   }
 
@@ -1145,7 +1146,7 @@ ul {
   .buttons {
     margin-left: -5.4rem;
     margin-top: 3rem;
-    background-color: #dfe1e6;
+    background-color: #fff;
     color: #396df2;
   }
 
