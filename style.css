@@ -32,13 +32,18 @@ header {
   height: 20px;
   text-decoration: none;
   align-items: center;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.ambony {
+  margin-right: 15%;
+  margin-top: 2%;
 }
 
 .humbourger {
   height: 12px;
   width: 18px;
-  left: 3px;
-  top: 6px;
   color: rgba(96, 112, 255, 1);
 }
 
@@ -46,6 +51,7 @@ header {
   align-items: center;
   background-image: url("media/header-image.png");
   background-color: rebeccapurple;
+  background-size: cover;
   width: 100%;
   height: 48px;
 }
@@ -417,7 +423,6 @@ ul.languages-list li {
   flex-direction: column;
   align-items: center;
   border-top-right-radius: 60px;
-  border-bottom-left-radius: 60px;
   width: 370px;
   height: 1150px;
   background: #fff;
@@ -874,4 +879,517 @@ ul {
   background-color: #2230d2;
   font-size: 18px;
   color: #fff;
+}
+
+/* Desktop version */
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #e5e5e5;
+  }
+
+  .logo {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  .app-header {
+    display: flex;
+    position: fixed;
+  }
+
+  .humburger {
+    display: none !important;
+  }
+
+  .ambony {
+    width: auto;
+    margin-right: 5%;
+  }
+
+  .menu {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .menu-item {
+    margin-right: 20px;
+  }
+
+  .menu-item a {
+    display: flex;
+    font-size: 1rem;
+    color: #344563;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .header-ambony {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10%;
+    background-color: #fff;
+    background-image: url(media/Header\ bg.svg);
+    background-size: cover;
+    top: 2.875rem;
+    border-bottom-left-radius: 60px;
+    height: 44.88rem;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  .narson {
+    width: 100%;
+  }
+
+  .detail {
+    height: 98px;
+    width: 55%;
+    left: 0;
+    top: 134px;
+  }
+
+  .connection {
+    margin-top: -1px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #7f8cff;
+  }
+
+  /* work section */
+
+  .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    margin: 5% 0 0 5%;
+    border-radius: 24px;
+    background-color: #e5e5e5;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #dfe1e6;
+    margin-top: 5%;
+    height: 60vh;
+    width: 100%;
+    border-radius: 24px;
+    margin-bottom: 5%;
+  }
+
+  .card-container img {
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+  .faha2 {
+    order: 2;
+  }
+
+  .work-fonony {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8rem;
+    width: 50%;
+    margin-top: 10rem;
+  }
+
+  .card-tittle {
+    margin-top: -15rem;
+    margin-left: -5.5rem;
+  }
+
+  .frame2-img {
+    margin-top: -1rem;
+    margin-left: -5.7rem;
+  }
+
+  .frame3-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .project-info {
+    list-style: none;
+    display: flex;
+    width: 66%;
+    font-size: 16px;
+    margin-top: -5rem;
+    font-weight: bold;
+    flex-direction: row;
+    gap: 8px;
+    order: 2;
+    margin-left: -5.5rem;
+  }
+
+  ul.project-info li {
+    list-style-type: none;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  ul.project-info li:not(:first-child)::before {
+    content: "\2022";
+    font-size: 40px;
+    position: absolute;
+  }
+
+  .fb {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #3b5998;
+  }
+
+  .full {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6b778c;
+  }
+
+  .year {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6b778c;
+  }
+
+  #fb-title {
+    margin-top: -15rem;
+    margin-left: -5rem;
+  }
+
+  #fb-info {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    width: 60%;
+    font-size: 16px;
+    margin-left: -5rem;
+    margin-top: -6rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    flex-direction: row;
+    gap: 8px;
+    order: 2;
+  }
+
+  #back-list {
+    margin-left: -5.3rem;
+    margin-top: -11rem;
+  }
+
+  #fd-buttons {
+    margin-left: -5.4rem;
+    background-color: #396df2;
+    color: #fff;
+  }
+
+  #fd-buttons:hover {
+    background-color: #fff;
+    color: #396df2;
+  }
+
+  #description-fb {
+    display: flex;
+    margin-top: -4rem;
+    width: 100%;
+    margin-left: -5.3rem;
+  }
+
+  .description {
+    display: flex;
+    margin-top: -5rem;
+    width: 100%;
+    margin-left: -5.3rem;
+  }
+
+  ul.languages-list li {
+    white-space: nowrap;
+  }
+
+  /* i tried to fix space between description and languages-lis but it doesn't work */
+  .languages-list {
+    margin-left: -5.3rem;
+    margin-top: -9.5rem;
+  }
+
+  .buttons {
+    margin-left: -5.4rem;
+    margin-top: 3rem;
+    background-color: #fff;
+    color: #396df2;
+  }
+
+  /* About section */
+
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    height: 750px;
+    padding: 20px 14px 0 16px;
+    margin-top: 5%;
+    border-top-right-radius: 80px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-top: -10%;
+  }
+
+  .about-text {
+    display: flex;
+    white-space: nowrap;
+    margin-left: 10%;
+    width: 100%;
+  }
+
+  .summary {
+    display: flex;
+    margin-left: 10%;
+    margin-top: -1.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 35vw;
+    height: 30vh;
+  }
+
+  .connection2 {
+    margin-left: 10%;
+    margin-top: -20%;
+  }
+
+  .social2 {
+    margin-left: 0.5rem;
+    margin-top: 2%;
+    width: 45%;
+  }
+
+  .buttons2 {
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  .skill-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: -8%;
+    width: 50vw;
+    height: 60vh;
+    margin-left: 2rem;
+  }
+
+  .down-arrow {
+    margin-left: 35rem;
+  }
+
+  .languages-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: -20rem;
+  }
+
+  .languages {
+    margin-left: -18.5rem;
+  }
+
+  .languages-list2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: -1rem;
+    padding-bottom: 3rem;
+    margin-top: -5rem;
+  }
+
+  ul.languages-list2 li {
+    margin-right: -2rem;
+  }
+
+  .javascript2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 8rem;
+  }
+
+  .js-logo {
+    height: 4.5rem;
+    width: 4.4rem;
+  }
+
+  .js-text {
+    align-self: center;
+    margin-top: 5.6rem;
+    margin-left: -1.5rem;
+  }
+
+  .html2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -0.1rem;
+    width: 50%;
+    height: 8rem;
+  }
+
+  .html-logo {
+    height: 4.5rem;
+    width: 4.4rem;
+  }
+
+  .html-text {
+    align-self: center;
+    margin-top: 5.8rem;
+    margin-left: -2.69rem;
+  }
+
+  .css2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.021rem;
+    width: 50%;
+    height: 8rem;
+  }
+
+  .css-logo {
+    height: 4.5rem;
+    width: 4.4rem;
+  }
+
+  .css-text {
+    align-self: center;
+    margin-top: 5.5rem;
+    margin-left: -3.4rem;
+  }
+
+  .frameworks-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 9.5rem;
+    margin-top: 5rem;
+  }
+
+  .right-arrow {
+    display: flex;
+    margin-left: 17rem;
+    margin-top: 6.4rem;
+  }
+
+  .right-arrow2 {
+    margin-left: -4rem;
+    margin-top: 11rem;
+  }
+
+  .separator-bottom {
+    margin-left: -36rem;
+    margin-top: 10%;
+  }
+
+  .skills-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 4.5rem;
+    margin-top: 9.7rem;
+  }
+
+  .separator-bottom4 {
+    display: flex;
+    margin-left: -18.5rem;
+    margin-top: 5%;
+  }
+
+  /* contact section */
+
+  .contact-form {
+    width: 100%;
+    background-size: cover;
+    background-image: url(media/contact-form-background.svg);
+    margin-top: -3%;
+  }
+
+  .contact-container {
+    width: 100%;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 102px;
+    top: 68px;
+  }
+
+  .contact-list {
+    width: 100%;
+  }
+
+  #name {
+    width: 27rem;
+    border-radius: 0;
+  }
+
+  #email {
+    width: 27rem;
+    border-radius: 0;
+  }
+
+  #text {
+    width: 27rem;
+    border-radius: 0;
+  }
+
+  #contact-submit {
+    margin-left: 25%;
+    width: 32%;
+    height: 50px;
+    margin-top: -10px;
+  }
+
+  #contact-submit:hover {
+    background-color: #2230d2;
+  }
 }
