@@ -1002,12 +1002,12 @@ ul {
     margin-bottom: 5%;
   }
   
-.card-container img:hover {
-    transition:  400ms ease;
+  .sary:hover {
+    transition: 400ms ease;
     transform: scale(1.1);
   }
 
-  .card-container img {
+  .sary {
     width: 50%;
     height: 100%;
     border-radius: 8px;
