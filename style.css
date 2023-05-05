@@ -1137,6 +1137,7 @@ ul {
     white-space: nowrap;
   }
 
+  /* i tried to fix space between description and languages-lis but it doesn't work */
   .languages-list {
     margin-left: -5.3rem;
     margin-top: -9.5rem;
@@ -1225,7 +1226,7 @@ ul {
   }
 
   .languages {
-    margin-left: -18rem;
+    margin-left: -18.5rem;
   }
 
   .languages-list2 {
@@ -1300,7 +1301,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 7.5rem;
+    margin-left: 9.5rem;
     margin-top: 5rem;
   }
 
@@ -1324,7 +1325,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 2.5rem;
+    margin-left: 4.5rem;
     margin-top: 9.7rem;
   }
 
