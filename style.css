@@ -1013,7 +1013,6 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 2%;
     margin-left: 8rem;
     width: 50%;
     margin-top: 10rem;
@@ -1037,16 +1036,14 @@ ul {
   .project-info {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    width: 60%;
+    width: 66%;
     font-size: 16px;
-    margin-top: -3rem;
-    margin-bottom: 1rem;
+    margin-top: -5rem;
     font-weight: bold;
     flex-direction: row;
     gap: 8px;
     order: 2;
-    margin-left: -4rem;
+    margin-left: -5.5rem;
   }
 
   ul.project-info li {
@@ -1087,17 +1084,16 @@ ul {
 
   #fb-title {
     margin-top: -15rem;
-    margin-left: -5.5rem;
+    margin-left: -5rem;
   }
 
   #fb-info {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
     margin: 0;
     width: 60%;
     font-size: 16px;
-    margin-left: -3.5rem;
+    margin-left: -5rem;
     margin-top: -3rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -1116,6 +1112,7 @@ ul {
   }
 
   #description-fb {
+    display: flex;
     margin-top: -2rem;
     width: 100%;
     margin-left: -5.3rem;
@@ -1123,7 +1120,7 @@ ul {
 
   .description {
     display: flex;
-    margin-top: -3rem;
+    margin-top: -5rem;
     width: 100%;
     margin-left: -5.3rem;
   }
