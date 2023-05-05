@@ -898,6 +898,8 @@ ul {
     background-color: transparent;
     margin-left: 10%;
     margin-top: 2%;
+    transition: width 2s, height 2s, background-color 2s, rotate 2s;
+    rotate: 360deg;
   }
 
   .app-header {
