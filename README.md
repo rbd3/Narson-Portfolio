@@ -5,6 +5,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -43,6 +44,10 @@
 - **[Setting up Linters properly]**
 - **[Html and css]**
 - **[Mobile view]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[Live Demo Link](https://rbd3.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
