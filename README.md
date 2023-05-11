@@ -5,6 +5,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Portfolio Outline](#Portfolio-Outline)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -46,6 +47,14 @@
 - **[Mobile view]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Presentation of Portfolio -->
+## 🚀 Portfolio Outline <a name="Portfolio Outline"></a>
+
+- [Loom Presentation link](https://www.loom.com/share/081a17c305314d71b8afce0223469ed1)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 [Live Demo Link](https://rbd3.github.io/)
 
