@@ -1,14 +1,14 @@
-  const hamburger = document.querySelector('.humburger');
-  const menu = document.querySelector('.menu');
-  const closeBtn = document.querySelector('.closebtn');
-  const workSection = document.querySelector('.work');
-  const aboutSection = document.querySelector('.about-me');
-  const contactSection = document.querySelector('.contact-form');
+const hamburger = document.querySelector('.humburger');
+const menu = document.querySelector('.menu');
+const closeBtn = document.querySelector('.closebtn');
+const workSection = document.querySelector('.work');
+const aboutSection = document.querySelector('.about-me');
+const contactSection = document.querySelector('.contact-form');
 
 // Show the mobile menu when the hamburger button is clicked
-  hamburger.addEventListener('click', () => {
-  document.getElementById('myNav').style.width = '100%';
-  });
+hamburger.addEventListener('click', () => {
+document.getElementById('myNav').style.width = '100%';
+});
 
   closeBtn.addEventListener('click', () => {
   document.getElementById('myNav').style.width = '0%';
