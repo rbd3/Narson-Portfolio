@@ -27,6 +27,6 @@ about.addEventListener('click', () => {
 
 const contact = document.querySelector('#contact');
 contact.addEventListener('click', () => {
-  contactSection.scrollIntoView({ behavior: 'smooth'});
+  contactSection.scrollIntoView({ behavior: 'smooth' });
   document.getElementById('myNav').style.width = '0%';
 });
