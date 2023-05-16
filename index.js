@@ -5,47 +5,47 @@ const showButton = document.getElementsByClassName('popBtn');
 
 const projectInfo = [
     {
-        id: 0,
-        header: 'Tonic',
-        canopy: 'CANOPY',
-        backend: 'Back End Dev',
-        year: '2015',
-        popupPhoto: 'media/Snapshoo-desktop.svg',
-        content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-        tools: ['HTML', 'CSS', 'JavaScript'],
+    id: 0,
+    header: 'Tonic',
+    canopy: 'CANOPY',
+    backend: 'Back End Dev',
+    year: '2015',
+    popupPhoto: 'media/Snapshoo-desktop.svg',
+    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    tools: ['HTML', 'CSS', 'JavaScript'],
     },
 
     {
-        id: 1,
-        header: 'Multi-Post Stories',
-        canopy: 'CANOPY',
-        backend: 'Back End Dev',
-        year: '2015',
-        popupPhoto: 'media/Snapshoot Portfolio.svg',
-        content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-        tools: ['HTML', 'CSS', 'JavaScript'],
+    id: 1,
+    header: 'Multi-Post Stories',
+    canopy: 'CANOPY',
+    backend: 'Back End Dev',
+    year: '2015',
+    popupPhoto: 'media/Snapshoot Portfolio.svg',
+    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    tools: ['HTML', 'CSS', 'JavaScript'],
   },
 
   {
-        id: 2,
-        header: 'Facebook 360',
-        canopy: 'FACEBOOK',
-        backend: 'Full Stack Dev',
-        year: '2015',
-        popupPhoto: 'media/Snapshoot Portfolio2.svg',
-        content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-        tools: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+    id: 2,
+    header: 'Facebook 360',
+    canopy: 'FACEBOOK',
+    backend: 'Full Stack Dev',
+    year: '2015',
+    popupPhoto: 'media/Snapshoot Portfolio2.svg',
+    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    tools: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
   },
 
   {
-        id: 3,
-        header: 'Multi-Post Stories',
-        canopy: 'CANOPY',
-        backend: 'Back End Dev',
-        year: '2015',
-        popupPhoto: 'media/Snapshoot Portfolio3.svg',
-        content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-        tools: ['HTML', 'CSS', 'JavaScript'],
+    id: 3,
+    header: 'Multi-Post Stories',
+    canopy: 'CANOPY',
+    backend: 'Back End Dev',
+    year: '2015',
+    popupPhoto: 'media/Snapshoot Portfolio3.svg',
+    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    tools: ['HTML', 'CSS', 'JavaScript'],
   },
 ];
 
@@ -161,12 +161,12 @@ projects.innerHTML = `
 `;
 
 for (let i = 0; i < showButton.length; i++) {
-    showButton[i].addEventListener('click', () => {
-        body.style.display = 'block';
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+  showButton[i].addEventListener('click', () => {
+      body.style.display = 'block';
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
 
-        popUp.innerHTML = `
+  popUp.innerHTML = `
         <section id="modal-section">
         <div class="modal-body">
           <div class="modal-title">
@@ -213,11 +213,11 @@ for (let i = 0; i < showButton.length; i++) {
           </div>
           </section>
         `;
-        body.appendChild(popUp);
+    body.appendChild(popUp);
   });
 }
 
 body.addEventListener('click', () => {
-    body.style.display = 'none';
-    popUp.remove();
-  });
+  body.style.display = 'none';
+  popUp.remove();
+});

@@ -225,7 +225,7 @@ small {
   margin: 0%;
   display: grid;
   grid-template-rows: repeat(3, auto);
-  align-items: space-between;
+  justify-content: space-between;
   padding-top: 10%;
 }
 
@@ -235,7 +235,6 @@ small {
   padding: 5%;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: space-between;
 }
 
