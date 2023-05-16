@@ -59,6 +59,7 @@ header {
   background: #6070ff;
   overflow-x: hidden;
   transition: 0.5s;
+  mix-blend-mode: multiply;
 }
 
 .overlay-content {
@@ -66,7 +67,7 @@ header {
   top: 25%;
   width: 100%;
   text-align: left;
-  margin-top: -10%;
+  margin-top: -15%;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -89,9 +90,11 @@ header {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  top: 5%;
+  right: 13%;
+  font-size: 30px;
+  height: 12px;
+  width: 12px;
 }
 
 .app-header {
