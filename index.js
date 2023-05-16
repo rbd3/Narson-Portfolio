@@ -4,7 +4,7 @@ const popUp = document.createElement('section');
 const showButton = document.getElementsByClassName('popBtn');
 
 const projectInfo = [
-    {
+  {
     id: 0,
     header: 'Tonic',
     canopy: 'CANOPY',
@@ -13,9 +13,9 @@ const projectInfo = [
     popupPhoto: 'media/Snapshoo-desktop.svg',
     content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     tools: ['HTML', 'CSS', 'JavaScript'],
-    },
+  },
 
-    {
+  {
     id: 1,
     header: 'Multi-Post Stories',
     canopy: 'CANOPY',
@@ -160,13 +160,13 @@ projects.innerHTML = `
   </div>
 `;
 
-for (let i = 0; i < showButton.length; i++) {
+for (let i = 0; i < showButton.length; i += 1) {
   showButton[i].addEventListener('click', () => {
-      body.style.display = 'block';
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+    body.style.display = 'block';
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 
-  popUp.innerHTML = `
+    popUp.innerHTML = `
         <section id="modal-section">
         <div class="modal-body">
           <div class="modal-title">
