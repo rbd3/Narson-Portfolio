@@ -47,6 +47,57 @@ header {
   color: rgba(96, 112, 255, 1);
 }
 
+/* Mobile menu */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(96, 112, 255, 0.95);
+  backdrop-filter: blur(7px);
+  overflow-x: hidden;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top: -15%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.overlay a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.4s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 5%;
+  right: 13%;
+  font-size: 30px;
+  height: 12px;
+  width: 12px;
+}
+
 .app-header {
   align-items: center;
   background-image: url("media/header-image.png");
@@ -84,7 +135,6 @@ header {
   height: 9.37rem;
   margin: 20px;
   color: #091e42;
-  font-style: bold;
   order: 0;
 }
 
