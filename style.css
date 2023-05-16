@@ -56,7 +56,8 @@ header {
   z-index: 1;
   top: 0;
   left: 0;
-  background: #6070ff;
+  background-color: rgba(96, 112, 255, 0.95); /* Transparent background color */
+  backdrop-filter: blur(7px); 
   overflow-x: hidden;
   transition: 0.5s;
   mix-blend-mode: multiply;
