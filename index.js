@@ -49,122 +49,51 @@ const projectInfo = [
   },
 ];
 
-projects.innerHTML = `
-<div class="card-body">
+for (let i = 0; i < projectInfo.length; i += 1) {
+  const card = document.createElement('div'); // to generate a new card for each project
+  card.classList.add('card-body');
+  
+  let toolsHtml = '';
+  for (let j = 0; j < projectInfo[i].tools.length; j += 1) {
+    toolsHtml += `<li>${projectInfo[i].tools[j]}</li>`;
+  }
+
+  card.innerHTML = `
     <div class="card-img">
-        <img src="${projectInfo[0].popupPhoto}" width="100%" />
+      <img src="${projectInfo[i].popupPhoto}" width="100%" />
     </div>
     <div>
-        <h2 class="card-header">${projectInfo[0].header}</h2>
-        <ul class="card-sub">
-      <li class="remove">${projectInfo[0].canopy}</li>
-      <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
-      <li>${projectInfo[0].backend}</li>
-      <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>      
-      <li>${projectInfo[0].year}</li>
-    </ul>
-    <div class="card-content">
-      <p>
-      ${projectInfo[0].content}
-      </p>
-      <ul class="tools">
-        <li>${projectInfo[0].tools[0]}</li>
-        <li>${projectInfo[0].tools[1]}</li>
-        <li>${projectInfo[0].tools[2]}</li>
+      <h2 class="card-header">${projectInfo[i].header}</h2>
+      <ul class="card-sub">
+        <li class="remove">${projectInfo[i].canopy}</li>
+        <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
+        <li>${projectInfo[i].backend}</li>
+        <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
+        <li>${projectInfo[i].year}</li>
       </ul>
-      <button class="popBtn show">See project</button>
+      <div class="card-content">
+        <p>${projectInfo[i].content}</p>
+        <ul class="tools">
+          ${toolsHtml}
+        </ul>
+        <button class="popBtn show">See project</button>
+      </div>
     </div>
-  </div>
-  </div>
+  `;
 
-  <div class="card-body">
-  <div class="card-img swap">
-  <img src="${projectInfo[1].popupPhoto}" width="100%"/>       
-  </div>
-  <div>
-    <h2 class="card-header">${projectInfo[1].header}</h2>
-    <ul class="card-sub">
-      <li class="remove">${projectInfo[1].canopy}</li>
-      <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
-      <li>${projectInfo[1].backend}</li>
-      <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
-      <li>${projectInfo[1].year}</li>
-    </ul>
-    <div class="card-content">
-      <p>
-      ${projectInfo[1].content}
-      </p>
-      <ul class="tools">
-        <li>${projectInfo[1].tools[0]}</li>
-        <li>${projectInfo[1].tools[1]}</li>
-        <li>${projectInfo[1].tools[2]}</li>
-      </ul>
-      <button class="popBtn show">See project</button>
-    </div>
-  </div>
-  </div>
-
-  <div class="card-body">
-  <div class="card-img">
-  <img src="${projectInfo[2].popupPhoto}" width="100%"/>       
-  </div>
-  <div>
-    <h2 class="card-header">${projectInfo[2].header}</h2>
-    <ul class="card-sub">
-      <li class="remove">${projectInfo[2].canopy}</li>
-      <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
-      <li>${projectInfo[2].backend}</li>
-      <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
-      <li>${projectInfo[2].year}</li>
-    </ul>
-    <div class="card-content">
-      <p>
-      ${projectInfo[1].content}
-      </p>
-      <ul class="tools">
-        <li>${projectInfo[2].tools[0]}</li>
-        <li>${projectInfo[2].tools[1]}</li>
-        <li>${projectInfo[2].tools[2]}</li>
-        <li>${projectInfo[2].tools[3]}</li>
-      </ul>
-      <button class="popBtn show">See project</button>
-    </div>
-  </div>
-  </div>
-
-  <div class="card-body">
-  <div class="card-img swap">
-  <img src="${projectInfo[3].popupPhoto}" width="100%"/>       
-  </div>
-  <div>
-    <h2 class="card-header">${projectInfo[3].header}</h2>
-    <ul class="card-sub">
-      <li class="remove">${projectInfo[1].canopy}</li>
-      <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
-      <li>${projectInfo[3].backend}</li>
-      <div class="bullet-point"><img src="media/Counter.svg" alt="Bullet Point"></div>
-      <li>${projectInfo[3].year}</li>
-    </ul>
-    <div class="card-content">
-      <p>
-      ${projectInfo[3].content}
-      </p>
-      <ul class="tools">
-        <li>${projectInfo[3].tools[0]}</li>
-        <li>${projectInfo[3].tools[1]}</li>
-        <li>${projectInfo[3].tools[2]}</li>
-      </ul>
-      <button class="popBtn show">See project</button>
-    </div>
-  </div>
-  </div>
-`;
+  projects.appendChild(card);
+}
 
 for (let i = 0; i < showButton.length; i += 1) {
   showButton[i].addEventListener('click', () => {
     body.style.display = 'block';
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+
+    let toolsHtml = '';
+  for (let j = 0; j < projectInfo[i].tools.length; j += 1) {
+    toolsHtml += `<li>${projectInfo[i].tools[j]}</li>`;
+  }
 
     popUp.innerHTML = `
         <section id="modal-section">
@@ -188,9 +117,7 @@ for (let i = 0; i < showButton.length; i += 1) {
               <p>${projectInfo[i].content}</p>
               <div class="modal-links-content">
                 <ul class="tools mobile-category">
-                  <li>${projectInfo[i].tools[0]}</li>
-                  <li>${projectInfo[i].tools[1]}</li>
-                  <li>${projectInfo[i].tools[2]}</li>
+                  ${toolsHtml}
                 </ul>
                 <div>
                   <hr class="line-break" />
