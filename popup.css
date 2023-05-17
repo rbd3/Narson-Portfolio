@@ -274,6 +274,7 @@ small {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .tools li {
@@ -289,6 +290,7 @@ small {
   line-height: 16px;
   color: #6070ff;
   letter-spacing: 0.03em;
+  margin-bottom: 5%;
 }
 
 .see-project {
