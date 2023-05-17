@@ -61,8 +61,8 @@
 #modal-close {
   position: absolute;
   cursor: pointer;
-  top: 30px;
-  right: 30px;
+  top: 3%;
+  right: 15%;
 }
 
 .line-break {
@@ -110,6 +110,7 @@
   color: #172b4d;
   font-weight: 700;
   font-size: 32px;
+  margin-top: 0;
 }
 
 .card-content {
@@ -291,6 +292,13 @@ small {
   color: #6070ff;
   letter-spacing: 0.03em;
   margin-bottom: 5%;
+}
+
+.image-img {
+  height: 472px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 0.5rem;
 }
 
 .see-project {
