@@ -413,8 +413,8 @@ small {
 
   .image-img {
     height: 472px;
-    width: 692px;
-    align-self: center;
+    width: 100%;
+    object-fit: cover;
     margin-top: 0.5rem;
   }
 

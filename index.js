@@ -111,7 +111,7 @@ for (let i = 0; i < showButton.length; i += 1) {
               <li>${projectInfo[i].year}</li>
             </ul>
           </div>
-          <img class="image-img" src="${projectInfo[i].popupPhoto}" width="100%"/>       
+          <img class="image-img" src="${projectInfo[i].popupPhoto}" />       
           <div>
             <div class="modal-content">
               <p>${projectInfo[i].content}</p>
