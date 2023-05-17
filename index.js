@@ -52,7 +52,6 @@ const projectInfo = [
 for (let i = 0; i < projectInfo.length; i += 1) {
   const card = document.createElement('div'); // to generate a new card for each project
   card.classList.add('card-body');
-  
   let toolsHtml = '';
   for (let j = 0; j < projectInfo[i].tools.length; j += 1) {
     toolsHtml += `<li>${projectInfo[i].tools[j]}</li>`;
@@ -91,9 +90,9 @@ for (let i = 0; i < showButton.length; i += 1) {
     document.documentElement.scrollTop = 0;
 
     let toolsHtml = '';
-  for (let j = 0; j < projectInfo[i].tools.length; j += 1) {
-    toolsHtml += `<li>${projectInfo[i].tools[j]}</li>`;
-  }
+    for (let j = 0; j < projectInfo[i].tools.length; j += 1) {
+      toolsHtml += `<li>${projectInfo[i].tools[j]}</li>`;
+    }
 
     popUp.innerHTML = `
         <section id="modal-section">
