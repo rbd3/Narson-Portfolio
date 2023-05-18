@@ -471,6 +471,11 @@ small {
     margin: 142px auto;
   }
 
+  #modal-close {
+    margin-right: -12%;
+    margin-top: 1.5%;
+  }
+
   .modal-content {
     display: grid;
     grid-template-columns: 60% 40%;
