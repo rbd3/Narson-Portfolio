@@ -65,7 +65,6 @@ for (let i = 0; i < projectInfo.length; i += 1) {
       <h2 class="card-header">${projectInfo[i].header}</h2>
       <ul class="card-sub">
         <li class="remove">${projectInfo[i].canopy}</li>
-        
         <li>${projectInfo[i].backend}</li>
       
         <li>${projectInfo[i].year}</li>
@@ -102,9 +101,7 @@ for (let i = 0; i < showButton.length; i += 1) {
             <i id="modal-close" class="uil uil-multiply"><img src="media/cross.png"></i>
             <ul class="card-sub">
               <li class="remove">${projectInfo[i].canopy}</li>
-
               <li>${projectInfo[i].backend}</li>
-
               <li>${projectInfo[i].year}</li>
             </ul>
           </div>
@@ -126,7 +123,7 @@ for (let i = 0; i < showButton.length; i += 1) {
                     <button class="modal-button source">
                       See source
                       <span>
-                      <img class="svg" src="media/github.svg" alt="Github Icon" />
+                      <img class="svg" src="media/group.svg" alt="Github Icon" />
                       </span>
                       </button>
                     </div>
