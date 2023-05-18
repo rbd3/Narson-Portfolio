@@ -12,6 +12,7 @@
   right: 0;
   width: 100vw;
   height: 100vh;
+  overflow: auto;
 }
 
 .container {
@@ -47,15 +48,14 @@
 
 .modal-body {
   position: relative;
-  width: 320px;
-  height: 90%;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   padding: 16px;
   background-color: #fff;
   border-radius: 16px;
   overflow-x: hidden;
-  overflow-y: scroll;
-  z-index: 5;
+  overflow-y: scroll; 
 }
 
 #modal-close {
@@ -66,19 +66,21 @@
 }
 
 .line-break {
-  margin: 10px auto;
+  width: 95%;
+  margin-top: -5%;
   border: solid 1px #ebecf0;
+  margin-left: -1%;
 }
 
 .modal-button {
   padding: 6px;
-  height: 40px;
+  height: 50px;
   width: 45%;
   border-radius: 8px;
   border: 1px solid #396df2;
   color: #396df2;
   background-color: #fff;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   display: flex;
   justify-content: center;
@@ -95,15 +97,28 @@
 .modal-combine {
   display: flex;
   align-items: center;
+  margin-top: 8%;
+}
+
+.modal-content {
+  display: grid;
+  padding: 10px;
+  align-items: center;
+  margin-top: -1rem;
+  top: 0;
 }
 
 .modal-content > p {
   font-size: 15px;
-  display: inline-block;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #344563;
+  margin-left: -0.5rem;
 }
 
 .svg {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .card-header {
@@ -151,7 +166,17 @@
 .card-sub li {
   color: #7a869a;
   font-size: 13px;
-  margin-right: 10px;
+  list-style-type: none;
+  position: relative; /* make the li element a positioned ancestor */
+  white-space: nowrap;
+}
+
+.card-sub li:not(:first-child)::before {
+  content: "\2022";
+  font-size: 40px;
+  position: absolute;
+  left: -1.3rem;
+  top: -1.2rem;
 }
 
 .card-sub .remove {
@@ -295,10 +320,12 @@ small {
 }
 
 .image-img {
-  height: 472px;
-  width: 100%;
+  height: 220px;
+  width: 90%;
+  align-self: center;
   object-fit: cover;
-  margin-top: 0.5rem;
+  margin-top: 0;
+  border-radius: 3%;
 }
 
 .see-project {
@@ -391,9 +418,9 @@ small {
   }
 
   .modal-button {
-    font-size: 12px;
+    font-size: 13px;
     border-radius: 8px;
-    width: 45%;
+    width: 50%;
     transition: background-color 0.3s ease;
   }
 
@@ -419,6 +446,11 @@ small {
   .card-sub li {
     color: #7a869a;
     font-size: 18px;
+  }
+
+  .card-sub li:not(:first-child)::before {
+    left: -1.5rem;
+    top: -1rem;
   }
 
   .image-img {

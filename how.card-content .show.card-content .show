@@ -1,0 +1,285 @@
+[33mcommit aa14f08664a0ab322db7c056242bd0fd3bd59a92[m[33m ([m[1;36mHEAD -> [m[1;32mPair-Programming-week-4[m[33m, [m[1;31morigin/Pair-Programming-week-4[m[33m)[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Wed May 17 13:57:46 2023 +0300
+
+    Update css file
+
+[33mcommit f63b7a63fb96e9a7daee8e58592db1bd3e228869[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Wed May 17 09:11:26 2023 +0300
+
+    Fix identation error
+
+[33mcommit d481c7ebc9c265164a3ef4e95574865421f13acd[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Wed May 17 09:08:55 2023 +0300
+
+    languages list flexible
+
+[33mcommit ec1a09f21bc6f422385e7dd69dd6ccff1b5d3699[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Wed May 17 08:58:43 2023 +0300
+
+    Fix image position
+
+[33mcommit 2ef2841a081f71e27076ad50fec772c4da575922[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Wed May 17 08:41:51 2023 +0300
+
+    Make project list dinamic
+
+[33mcommit c904c3c315b2b7b0ef7fb6b3a196f46a41b44948[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 21:45:29 2023 +0300
+
+    Fix identation error
+
+[33mcommit b362c8554b2f754217a76723d24a0bda9ea31cdb[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 21:37:18 2023 +0300
+
+    Fix identation error
+
+[33mcommit c656f9b3dc343edc230bcc91b5de96b68922bcfc[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 21:08:20 2023 +0300
+
+    Finish css and js codes for popup window
+
+[33mcommit 9fb5a2514f80f4a1b0eb03d36b643842e32db61e[m
+Author: Rifat8080 <123451855+Rifat8080@users.noreply.github.com>
+Date:   Tue May 16 19:20:35 2023 +0600
+
+    css file updated with new classes and html update
+
+[33mcommit edb7d9a6b7851b00313cee4192bdfa41dc83a876[m
+Author: Rifat8080 <123451855+Rifat8080@users.noreply.github.com>
+Date:   Tue May 16 19:17:01 2023 +0600
+
+    work section html updated
+
+[33mcommit f6b20e5e095def1bd91535b802e2c905c5c8d38c[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 10:07:04 2023 +0300
+
+    Fix identation error
+
+[33mcommit 21ca1d165581e0f16a4aad325791c79b10c6a4d1[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 10:01:43 2023 +0300
+
+    Add blur effect
+
+[33mcommit e75995bb3f70fa40194d121498e9954e3831958a[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 09:45:44 2023 +0300
+
+    Fix menu error
+
+[33mcommit 3780f053ee4e2f7eef03717b983d5147762aaa32[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 00:59:25 2023 +0300
+
+    Fix identation error
+
+[33mcommit 15ac4f5686b95ac0aa182a53053221831bb90998[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 00:53:36 2023 +0300
+
+    Fix identation error
+
+[33mcommit ca18594b5064ebc80db61cd75cea3f93ccc7f464[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 00:48:40 2023 +0300
+
+    Fix identation error
+
+[33mcommit 7b99d44be2cf03897cbf516dec71f32010e4797c[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 00:40:10 2023 +0300
+
+    Fix identation error
+
+[33mcommit 3e225b40e70ae601d195c52810081350c355ee7c[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 00:34:31 2023 +0300
+
+    Fix identation error
+
+[33mcommit 56e4f95a9a50419406c47b250653df9a2f0f0d6a[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 00:30:40 2023 +0300
+
+    Fix identation error
+
+[33mcommit 706685d6b129fbd2aefbae959ae37948ff9b28e0[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Tue May 16 00:16:04 2023 +0300
+
+    Add mobile menu event
+
+[33mcommit 56f32a3904dc8eec32ae64cc94450035ca408304[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Mon May 15 21:57:27 2023 +0300
+
+    Add change linters file
+
+[33mcommit c25bed23b520254edd1b5789e272de16a792dd02[m
+Author: Rifat8080 <123451855+Rifat8080@users.noreply.github.com>
+Date:   Mon May 15 22:55:04 2023 +0600
+
+    Linters js  updated and one js file delete
+
+[33mcommit fc34ab1ed8e3f9efeedc55a037c8e4fe8be8599a[m
+Author: Rifat8080 <123451855+Rifat8080@users.noreply.github.com>
+Date:   Mon May 15 22:50:40 2023 +0600
+
+    js file added
+
+[33mcommit 7e8d6d5517cc55257615ac1aeed3872aa049d2a0[m[33m ([m[1;32mmain[m[33m)[m
+Author: rbd3 <119520276+rbd3@users.noreply.github.com>
+Date:   Fri May 12 10:40:42 2023 +0300
+
+    Remove </a> closing tag in line 193 index.html
+
+[33mcommit 8f22a8a8f5e8b64ab85a34f2e9501f4ace3e59bc[m
+Author: rbd3 <119520276+rbd3@users.noreply.github.com>
+Date:   Fri May 12 10:37:39 2023 +0300
+
+    Update README.md
+    
+    Add title, Demo live, and link to the issue page
+
+[33mcommit 1f25f0f6e073ab0d55e918f8ff0ff8270dba9507[m
+Merge: 9eb1fe0 32966c0
+Author: rbd3 <119520276+rbd3@users.noreply.github.com>
+Date:   Mon May 8 11:27:59 2023 +0300
+
+    Merge pull request #7 from rbd3/deployment
+    
+     Uodate README
+
+[33mcommit 32966c0fcf5da57a58f34295274976c45a5c2884[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Mon May 8 11:22:35 2023 +0300
+
+     First commit
+
+[33mcommit 9eb1fe0706ac2be1075688444590e97026780119[m
+Merge: fa8b75c ff2a6d9
+Author: rbd3 <119520276+rbd3@users.noreply.github.com>
+Date:   Fri May 5 16:29:14 2023 +0300
+
+    Merge pull request #6 from rbd3/animation
+    
+    Animation
+
+[33mcommit ff2a6d910e63238c78863717a572eb12e8d654fb[m[33m ([m[1;31morigin/animation[m[33m, [m[1;32manimation[m[33m)[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 16:26:20 2023 +0300
+
+    Fix identation eror
+
+[33mcommit 5f1bdcaa71ba27fbfbcf17da6fcbb8ab3a0a0586[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 16:24:25 2023 +0300
+
+    Fix identation eror
+
+[33mcommit ba0c3097040a93cb4f2230367335b1839fcde144[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 16:20:32 2023 +0300
+
+    Fix identation eror
+
+[33mcommit 537026553a71d460520e4fbeca2d1ea87eb70d84[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 16:09:39 2023 +0300
+
+    Add logo animation
+
+[33mcommit 9205db5349c13dafaa3fb90e7371ee236e1815e1[m
+Author: Evans kofi Nyamekye <60971417+evansnyamekye@users.noreply.github.com>
+Date:   Fri May 5 12:55:45 2023 +0000
+
+    Picture Animation
+    
+    ##Added picture animation to the card works snapshot.
+
+[33mcommit 51596329b45d102e3b7fdfb68158274b6879cab3[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 15:38:23 2023 +0300
+
+    First commit
+
+[33mcommit fa8b75c7f9ae81e71a7ccf64b63c50317667c875[m
+Merge: a6b3f35 ec43dea
+Author: rbd3 <119520276+rbd3@users.noreply.github.com>
+Date:   Fri May 5 14:41:52 2023 +0300
+
+    Merge pull request #5 from rbd3/destop-version
+    
+    Destop version
+
+[33mcommit ec43dea98ac8e1a4de7404ba5d5b6ef4a949b722[m[33m ([m[1;31morigin/destop-version[m[33m)[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 14:37:25 2023 +0300
+
+    Remove live demo in readme file
+
+[33mcommit d6dc4018a1c7ac2cd2f27aa6bdde07dfc0602635[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 14:09:20 2023 +0300
+
+    Fix humburger and buttom color error
+
+[33mcommit 76d8fda0f6fe1bf5ccc31a3ea769c6dfe454d624[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 12:54:04 2023 +0300
+
+    Fix identations error
+
+[33mcommit e0754c89cf511749c5c9509962ab685fd6fc2856[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 12:49:23 2023 +0300
+
+    Fix language, framwork, skill alignement
+
+[33mcommit 387b2e34528b76e6459ee71a6baa3819a11a1396[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 12:40:12 2023 +0300
+
+    Fix button color
+
+[33mcommit f74584f2692153520b442d1a2ab6c0eae13ebbd4[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 12:30:58 2023 +0300
+
+    Fix work section
+
+[33mcommit cf8ecce76b17a5a798862137a92df7777aae9ef9[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Fri May 5 11:38:54 2023 +0300
+
+    Fix button color
+
+[33mcommit 81453529eba90ad156621a5ab3546383dd08a710[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Thu May 4 21:41:14 2023 +0300
+
+    Fix header padding and languages alignement error
+
+[33mcommit 95b7f35a969e2757a66e32b2c301998c9804eaac[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Thu May 4 16:43:37 2023 +0300
+
+    Fix identations error
+
+[33mcommit c1ba340128c2ab875fd30d4c184887486a7c14cf[m
+Author: rbd3 <rabedesanaa@gmail.com>
+Date:   Thu May 4 16:40:07 2023 +0300
+
+    Fix identations error
+
+[33mcommit dc0bbbd65913e5b56609dcf90401da5764109bd3[m
+Author: rbd3 <rabedesanaa@
