@@ -47,8 +47,8 @@
 
 .modal-body {
   position: relative;
-  width: 320px;
-  height: 90%;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   padding: 16px;
   background-color: #fff;
@@ -151,7 +151,19 @@
 .card-sub li {
   color: #7a869a;
   font-size: 13px;
-  margin-right: 10px;
+  
+  list-style-type: none;
+  position: relative; /* make the li element a positioned ancestor */
+  /*padding-right: 20px;*/
+  white-space: nowrap;
+}
+
+.card-sub li:not(:first-child)::before {
+  content: "\2022";
+  font-size: 40px;
+  position: absolute;
+  left: -1.3rem;
+  top: -1.2rem;
 }
 
 .card-sub .remove {
@@ -419,6 +431,12 @@ small {
   .card-sub li {
     color: #7a869a;
     font-size: 18px;
+  }
+
+  .card-sub li:not(:first-child)::before {
+    
+    left: -1.5rem;
+    top: -1rem;
   }
 
   .image-img {
