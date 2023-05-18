@@ -30,3 +30,26 @@ contact.addEventListener('click', () => {
   contactSection.scrollIntoView({ behavior: 'smooth' });
   document.getElementById('myNav').style.width = '0%';
 });
+
+// Contact for validation and giving error feedback
+const form = document.querySelector('form');
+function handleSubmit(event) {
+  event.preventDefault();
+
+  const emailInput = document.querySelector('#email');
+  const email = emailInput.value;
+
+  if (email === email.toLowerCase()) {
+    form.submit();
+  } else {
+    let errorMessage = form.querySelector('.errorMsg');
+    if (errorMessage) {
+      form.removeChild(errorMessage);
+    }
+    errorMessage = document.createElement('p');
+    errorMessage.classList.add('errorMsg');
+    errorMessage.textContent = 'Oops! An error has occurred, your email must be lowercase.';
+    form.appendChild(errorMessage);
+  }
+}
+form.addEventListener('submit', handleSubmit);
