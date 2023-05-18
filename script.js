@@ -49,7 +49,9 @@ function handleSubmit(event) {
     errorMessage = document.createElement('p');
     errorMessage.classList.add('errorMsg');
     errorMessage.textContent = 'Oops! An error has occurred, your email must be lowercase.';
-    form.appendChild(errorMessage);
+    alert(errorMessage.textContent);
+
+
   }
 }
 form.addEventListener('submit', handleSubmit);
