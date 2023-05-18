@@ -40,10 +40,8 @@ function handleSubmit(event) {
   const email = emailInput.value;
 
   if (email === email.toLowerCase()) {
-    // If it fits requirement[lowercase], ahead
     form.submit();
   } else {
-    // Otherwise show dynamic error below
     let errorMessage = form.querySelector('.errorMsg');
     if (errorMessage) {
       form.removeChild(errorMessage);
