@@ -10,9 +10,11 @@ const projectInfo = [
     canopy: 'ToDo',
     backend: 'Front End Dev',
     year: '2023',
-    popupPhoto: 'media/ToDo.svg',
+    popupPhoto: 'media/ToDo.png',
     content: 'The To-Do List application is a powerful tool designed to help you stay organized and manage your tasks effectively. With its robust features, this application simplifies the process of creating, organizing, and tracking your daily tasks and goals.',
     tools: ['HTML', 'CSS', 'JavaScript'],
+    live: 'https://rbd3.github.io/To-Do-Deploy/',
+    source: 'https://github.com/rbd3/ToDo-List-Narson',
   },
 
   {
@@ -24,6 +26,8 @@ const projectInfo = [
     popupPhoto: 'media/RBD-school-header.png',
     content: 'RBD-School is a high school for Technology in Madagascar. This website is to inform and interact with people about the school.',
     tools: ['HTML', 'CSS', 'JavaScript'],
+    live: 'https://rbd3.github.io/rbd3.github.io-RBD-School/',
+    source: 'https://github.com/rbd3/RBD-High-School',
   },
 
   {
@@ -117,11 +121,11 @@ for (let i = 0; i < showButton.length; i += 1) {
                   <hr class="line-break" />
                   <div class="modal-combine">
                     <button class="modal-button live">
-                      See live
+                      <a href=${projectInfo[i].live}>See live</a>
                       <img class="svg" src="media/Live-Icon.svg" alt="Live Icon" />
                     </button>
                     <button class="modal-button source">
-                      See source
+                    <a href=${projectInfo[i].source}>See source</a>
                       <span>
                       <img class="svg" src="media/group.svg" alt="Github Icon" />
                       </span>
